@@ -1,7 +1,40 @@
-.primeiro-h1 {
-    /* color: gray; */
-    color: #ff00fe;
+* {
+    box-sizing: border-box;
+}
+
+body {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-style: normal;
+}
+
+.container {
+    background-color: #121212;
+    width: 700px;
+    color: #fff;
+    margin: auto;
+    padding: 50px;
+    border: 5px solid red;
+    border-radius: 15px;
+}
+
+.rede-social h2 {
+    text-align: center;
+}
+
+.rede-social ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.rede-social li {
+    margin-bottom: 12px;
+}
+
+.rede-social a {
+    text-decoration: none;
+    color: #000;
+}
+
+.rede-social a:hover {
+    color: red;
 }
