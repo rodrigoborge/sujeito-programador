@@ -17,13 +17,11 @@ body {
     border-radius: 15px;
 }
 
-.area {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 80px;
-    height: 80px;
-    background-color: green;
-    border-radius: 100%;
-    color: #fff;
+header {
+    background-color: cadetblue;
+    width: 100%;
+    margin-bottom: 20px;
+
+    position: sticky;
+    top: 0;
 }
