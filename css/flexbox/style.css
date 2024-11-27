@@ -33,10 +33,12 @@ body {
 
 .item-1 {
     background-color: red;
+    align-self: flex-start;
 }
 
 .item-2 {
     background-color: blue;
+    align-self: flex-end;
 }
 
 .item-3 {
@@ -45,4 +47,5 @@ body {
 
 .item-4 {
     background-color: blueviolet;
+    align-self: first baseline;
 }
