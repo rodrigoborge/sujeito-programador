@@ -16,13 +16,16 @@ body {
     margin: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 25px;
     font-weight: 600;
-    padding: 20px;
     color: white;
     width: 100px;
     height: 100px;
