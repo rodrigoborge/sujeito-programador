@@ -16,6 +16,7 @@ body {
     margin: 50px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .area {
@@ -29,15 +30,16 @@ body {
 
 .item-1 {
     background-color: red;
-    order: 2;
 }
 
 .item-2 {
     background-color: blue;
-    order: 3;
 }
 
 .item-3 {
     background-color: darkgreen;
-    order: 1;
+}
+
+.item-4 {
+    background-color: blueviolet;
 }
