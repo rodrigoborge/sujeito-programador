@@ -25,12 +25,15 @@ body {
 
 .item-1 {
     background-color: red;
+    flex: 1;
 }
 
 .item-2 {
     background-color: blue;
+    flex: 2;
 }
 
 .item-3 {
     background-color: darkgreen;
+    flex: 1;
 }
