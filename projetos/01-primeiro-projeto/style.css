@@ -41,7 +41,6 @@ body {
     background-color: #000;
     background-image: url(img/programador.png);
     background-repeat: no-repeat;
-    background-size: 100%;
     display: flex;
     align-items: center;
     padding-left: 10%;
@@ -72,16 +71,47 @@ body {
     border-radius: 5px;
     font-size: 20px;
     font-weight: 700;
+    transition: 500ms;
 }
 
 .cta:hover {
     cursor: pointer;
     background-color: #f22c36;
+    transform: scale(1.06);
     color: #fff;
-    transition: 300ms;
+    transition: 500ms;
     border: 0;
     padding: 15px;
     border-radius: 5px;
     font-size: 20px;
     font-weight: 700;
+}
+
+.about {
+    background-color: #fff;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about div {
+    max-width: 50%;
+    padding-right: 40px;
+}
+
+.about div h2 {
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: #f22c36;
+}
+
+.about img {
+    max-width: 450px;
+    border-radius: 10px;
 }
