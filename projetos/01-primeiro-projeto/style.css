@@ -211,7 +211,7 @@ footer a {
 
 /* Responsividade */
 
-@media (max-width: 1050px) {
+@media (max-width: 1250px) {
     .main h1 {
         font-size: 45px;
     }
@@ -241,6 +241,23 @@ footer a {
     .about img{
         width: 80%;
         margin-top: 30px
+    }
+
+    .projects img {
+        width: 30%;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer h3{
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .footer p{
+        margin: 0;
     }
 }
 
