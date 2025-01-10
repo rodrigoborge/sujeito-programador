@@ -95,13 +95,13 @@ input[type="text"]:focus {
 input[type="submit"] {
   width: 320px;
   margin-top: 10px;
-  height: 30px;
+  height: 35px;
   border: 0;
   background-color: #3c96ed;
   border-radius: 5px;
   color: #ffffff;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 10px;
   cursor: pointer;
 }
@@ -155,4 +155,37 @@ footer a {
   text-transform: uppercase;
   padding-left: 20px;
   display: inline-block;
+}
+
+#container-signup {
+  margin: 0 auto;
+  min-height: 100%;
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
+.message{
+  margin: 10px 70px;
+
+}
+
+.message span{
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #8e8e8e;
+}
+
+.cta-facebook {
+  width: 320px;
+  margin: 10px;
+  height: 35px;
+  background-color: #3c96ed;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 700;
 }
