@@ -225,18 +225,18 @@ footer a {
 
 @media (max-width: 550px) {
   #container {
-    width: 90%;
+    width: 70%;
   }
   #container.signup {
-    width: 80%;
+    width: 70%;
   }
   input[type="password"],
   input[type="text"]input[type="submit"] {
-    width: 80%;
+    width: 70%;
   }
 
   .cta-facebook {
-    width: 80%;
+    width: 70%;
   }
 
   .message {
