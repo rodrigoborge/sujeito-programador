@@ -208,3 +208,38 @@ footer a {
   color: #8e8e8e;
   user-select: none;
 }
+
+@media(max-width: 850px) {
+  .left{
+    display: none;
+  }
+
+  #container{
+    width: 70%;
+  }
+
+  .right{
+    padding-left: 0;
+  }
+}
+
+@media(max-width: 550px) {
+  #container{
+    width: 90%;
+  }
+  #container.signup{
+    width: 80%;
+  }
+  input[type="password"], input[type="text"]input[type="submit"]{
+    width: 80%;
+  }
+
+  .cta-facebook{
+    width: 80%;
+  }
+
+  .message{
+    margin: 10px 25px;
+  }
+  
+}
