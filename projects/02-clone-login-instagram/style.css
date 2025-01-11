@@ -209,37 +209,37 @@ footer a {
   user-select: none;
 }
 
-@media(max-width: 850px) {
-  .left{
+@media (max-width: 850px) {
+  .left {
     display: none;
   }
 
-  #container{
+  #container {
     width: 70%;
   }
 
-  .right{
+  .right {
     padding-left: 0;
   }
 }
 
-@media(max-width: 550px) {
-  #container{
+@media (max-width: 550px) {
+  #container {
     width: 90%;
   }
-  #container.signup{
+  #container.signup {
     width: 80%;
   }
-  input[type="password"], input[type="text"]input[type="submit"]{
-    width: 80%;
-  }
-
-  .cta-facebook{
+  input[type="password"],
+  input[type="text"]input[type="submit"] {
     width: 80%;
   }
 
-  .message{
+  .cta-facebook {
+    width: 80%;
+  }
+
+  .message {
     margin: 10px 25px;
   }
-  
 }
