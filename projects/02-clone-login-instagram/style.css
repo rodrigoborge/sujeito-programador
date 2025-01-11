@@ -227,16 +227,16 @@ footer a {
   #container {
     width: 90%;
   }
-  .signup {
-    width: 80%;
+  #container-signup {
+    width: 90%;
   }
   input[type="password"],
   input[type="text"]input[type="submit"] {
-    width: 70%;
+    width: 80%;
   }
 
   .cta-facebook {
-    width: 70%;
+    width: 80%;
   }
 
   .message {
