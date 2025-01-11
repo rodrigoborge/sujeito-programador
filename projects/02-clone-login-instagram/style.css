@@ -215,7 +215,7 @@ footer a {
   }
 
   #container {
-    width: 70%;
+    width: 90%;
   }
 
   .right {
@@ -225,10 +225,10 @@ footer a {
 
 @media (max-width: 550px) {
   #container {
-    width: 70%;
+    width: 90%;
   }
-  #container.signup {
-    width: 70%;
+  .signup {
+    width: 80%;
   }
   input[type="password"],
   input[type="text"]input[type="submit"] {
