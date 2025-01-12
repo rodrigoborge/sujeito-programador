@@ -1,245 +1,245 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 a {
-  color: #3c96ed;
-  text-decoration: none;
+    color: #3c96ed;
+    text-decoration: none;
 }
 
 body {
-  background: #fafafa;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 18px;
+    background: #fafafa;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 #wrapper {
-  height: 100vh;
+    height: 100vh;
 }
 
 #container {
-  margin: 0 auto;
-  min-height: 100%;
-  width: 800px;
-  display: flex;
-  align-items: center;
+    margin: 0 auto;
+    min-height: 100%;
+    width: 800px;
+    display: flex;
+    align-items: center;
 }
 
 .column {
-  flex-grow: 1;
-  width: 50%;
+    flex-grow: 1;
+    width: 50%;
 }
 
 .left {
-  background-image: url(assets/main-foto.png);
-  background-size: 450px;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 600px;
-  margin-bottom: 50px;
+    background-image: url(assets/main-foto.png);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    margin-bottom: 50px;
 }
 
 .right {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 
 .login-panel {
-  background: #fff;
-  border: 1px solid #e6e6e6;
-  text-align: center;
-  padding: 20px 0px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    padding: 20px 0px;
 }
 
 .logo-img {
-  width: 175px;
+    width: 175px;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-input[type="password"],
-input[type="text"] {
-  background-color: #ffffff;
-  border: 1px solid rgb(236, 234, 234);
-  height: 40px;
-  border-radius: 5px;
-  margin-top: 10px;
-  padding: 10px;
-  font-size: 13px;
-  width: 320px;
-  color: #000000;
+input[type='password'],
+input[type='text'] {
+    background-color: #ffffff;
+    border: 1px solid rgb(236, 234, 234);
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 13px;
+    width: 320px;
+    color: #000000;
 }
 
-input[type="password"]::placeholder,
-input[type="text"]::placeholder {
-  color: rgb(165, 164, 164);
+input[type='password']::placeholder,
+input[type='text']::placeholder {
+    color: rgb(165, 164, 164);
 }
 
-input[type="password"]:focus,
-input[type="text"]:focus {
-  outline: 0;
-  border: 1px solid #a1a1a1;
+input[type='password']:focus,
+input[type='text']:focus {
+    outline: 0;
+    border: 1px solid #a1a1a1;
 }
 
-input[type="submit"] {
-  width: 320px;
-  margin-top: 10px;
-  height: 35px;
-  border: 0;
-  background-color: #3c96ed;
-  border-radius: 5px;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  cursor: pointer;
+input[type='submit'] {
+    width: 320px;
+    margin-top: 10px;
+    height: 35px;
+    border: 0;
+    background-color: #3c96ed;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .infobox {
-  background-color: #fff;
-  height: 60px;
-  border: 1px solid rgb(236, 234, 234);
-  margin: 10px auto 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background-color: #fff;
+    height: 60px;
+    border: 1px solid rgb(236, 234, 234);
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .infobox p a {
-  font-weight: bold;
-  user-select: none;
+    font-weight: bold;
+    user-select: none;
 }
 
 .get-app-panel {
-  margin-top: 20px;
-  text-align: center;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .app-button {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .app-button img {
-  height: 40px;
-  padding: 0 2;
+    height: 40px;
+    padding: 0 2;
 }
 
 footer {
-  text-align: center;
-  height: 50px;
-  margin-top: -50px;
+    text-align: center;
+    height: 50px;
+    margin-top: -50px;
 }
 
 footer a {
-  color: #000;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin-right: 10px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 10px;
 }
 
 .text-small {
-  font-size: 12px;
-  font-weight: 700;
-  color: grey;
-  text-transform: uppercase;
-  padding-left: 20px;
-  display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    color: grey;
+    text-transform: uppercase;
+    padding-left: 20px;
+    display: inline-block;
 }
 
 #container-signup {
-  margin: 0 auto;
-  min-height: 100%;
-  width: 400px;
-  display: flex;
-  align-items: center;
+    margin: 0 auto;
+    min-height: 100%;
+    width: 400px;
+    display: flex;
+    align-items: center;
 }
 .message {
-  margin: 10px 70px;
+    margin: 10px 70px;
 }
 
 .message span {
-  text-align: center;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 20px;
-  color: #8e8e8e;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #8e8e8e;
 }
 
 .cta-facebook {
-  width: 320px;
-  margin: 10px;
-  height: 35px;
-  background-color: #3c96ed;
-  color: #fff;
-  border: 0;
-  border-radius: 5px;
-  font-size: 15px;
-  cursor: pointer;
-  font-weight: 700;
+    width: 320px;
+    margin: 10px;
+    height: 35px;
+    background-color: #3c96ed;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 700;
 }
 
 .divisor-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
 }
 
 .line {
-  height: 1px;
-  background-color: #e6e6e6;
-  width: 35%;
+    height: 1px;
+    background-color: #e6e6e6;
+    width: 35%;
 }
 
 .divisor-tag {
-  font-weight: 700;
-  margin: 0 2.5%;
-  color: #8e8e8e;
-  user-select: none;
+    font-weight: 700;
+    margin: 0 2.5%;
+    color: #8e8e8e;
+    user-select: none;
 }
 
 @media (max-width: 850px) {
-  .left {
-    display: none;
-  }
+    .left {
+        display: none;
+    }
 
-  #container {
-    width: 90%;
-  }
+    #container {
+        width: 90%;
+    }
 
-  .right {
-    padding-left: 0;
-  }
+    .right {
+        padding-left: 0;
+    }
 }
 
 @media (max-width: 550px) {
-  #container {
-    width: 90%;
-  }
-  #container-signup {
-    width: 90%;
-  }
-  input[type="password"],
-  input[type="text"]input[type="submit"] {
-    width: 80%;
-  }
+    #container {
+        width: 90%;
+    }
+    #container-signup {
+        width: 90%;
+    }
+    input[type='password'],
+    input[type='text']input[type='submit'] {
+        width: 80%;
+    }
 
-  .cta-facebook {
-    width: 80%;
-  }
+    .cta-facebook {
+        width: 80%;
+    }
 
-  .message {
-    margin: 10px 25px;
-  }
+    .message {
+        margin: 10px 25px;
+    }
 }

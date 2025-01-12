@@ -31,12 +31,12 @@ header {
 }
 
 header nav a {
-    text-decoration:  none;
+    text-decoration: none;
     color: #fff;
     padding-right: 10px;
 }
 
-header nav a:hover{
+header nav a:hover {
     color: black;
     font-weight: 600;
 }
