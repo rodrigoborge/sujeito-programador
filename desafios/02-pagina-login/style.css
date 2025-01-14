@@ -3,8 +3,27 @@
 * {
     margin: 0;
     padding: 0;
+    border: solid 0.5px red;
 }
 
 body {
     font-family: 'Roboto', serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+}
+.wrapper .left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.formulario input {
+    width: 600px;
 }
