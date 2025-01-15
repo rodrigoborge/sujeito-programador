@@ -1,29 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: solid 0.5px red;
+    outline: 0;
 }
 
-body {
+:root {
+    --blue: #0056fb;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+.content {
     font-family: 'Roboto', serif;
-}
-
-.wrapper {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    height: 100vh;
-}
-.wrapper .left {
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+}
+
+.left {
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    background-color: var(--white);
+}
+
+.left h1 {
+    font-weight: 700;
+    font-size: 42px;
+    padding-left: 20px;
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.campo {
+    width: 444px;
+    height: 49px;
+    border-radius: 4px;
+    border: solid 1px var(--black);
+    margin-bottom: 20px;
+}
+
+.campo::placeholder {
+    padding: 10px;
+}
+
+.check {
+    margin-bottom: 20px;
+}
+
+.check label {
+    margin-left: 8px;
+}
+
+.button {
+    border: 0;
+    width: 444px;
+    height: 49px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 5.5%;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--blue);
+    justify-content: center;
+    align-items: center;
+}
+
+.right .content2 h2 {
+    color: var(--white);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+    letter-spacing: 5.5%;
+}
+
+.right img{
+    max-width: 500px;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
     padding: 100px;
 }
 
-.formulario input {
-    width: 600px;
+.content2 p {
+    color: var(--white);
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 5.5%;
+    max-width: 438px;
 }
