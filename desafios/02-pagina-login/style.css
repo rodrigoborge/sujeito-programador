@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    border: 1px solid red;
 }
 
 :root {
@@ -17,14 +18,16 @@
     font-family: 'Roboto', serif;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
-    height: 100vh;
+    justify-content: ;
 }
 
 .left {
-    align-items: center;
-    justify-content: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
     padding: 100px;
     background-color: var(--white);
 }
@@ -32,8 +35,7 @@
 .left h1 {
     font-weight: 700;
     font-size: 42px;
-    padding-left: 20px;
-    margin: 20px;
+    padding-bottom: 20px;
 }
 
 form {
@@ -59,7 +61,7 @@ form {
     margin-bottom: 20px;
 }
 
-.check label {
+label {
     margin-left: 8px;
 }
 
@@ -76,8 +78,29 @@ form {
     cursor: pointer;
 }
 
+.conta {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.conta p {
+    font-weight: 700;
+}
+
+.conta a {
+    padding-left: 5px;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.conta a:hover {
+    color: var(--blue);
+}
+
 .right {
     display: flex;
+    flex: 1;
     flex-direction: column;
     height: 100vh;
     background-color: var(--blue);
@@ -93,7 +116,7 @@ form {
     letter-spacing: 5.5%;
 }
 
-.right img{
+.right img {
     max-width: 500px;
 }
 
