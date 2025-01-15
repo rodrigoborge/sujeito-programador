@@ -106,9 +106,16 @@ label {
     background-color: var(--blue);
     justify-content: center;
     align-items: center;
+    justify-self: center;
 }
 
-.right .content2 h2 {
+.content2 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.content2 h2 {
     color: var(--white);
     font-size: 48px;
     font-weight: 700;
@@ -117,13 +124,7 @@ label {
 }
 
 .right img {
-    max-width: 500px;
-}
-
-.content2 {
-    display: flex;
-    flex-direction: column;
-    padding: 100px;
+    max-width: 535px;
 }
 
 .content2 p {
