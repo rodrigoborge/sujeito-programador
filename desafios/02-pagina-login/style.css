@@ -59,6 +59,12 @@ input[type=text], input[type=e-mail], input[type=password]{
     font-size: 16px;
 }
 
+input[type=text]:focus, input[type=e-mail]:focus, input[type=password]:focus{
+    border: 1px solid #0056fb;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
 
 .check {
     margin-bottom: 20px;
