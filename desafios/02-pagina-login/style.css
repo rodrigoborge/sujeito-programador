@@ -190,27 +190,29 @@ label {
     }
 }
 
-@media only screen and (max-width: 390px) {
-.content {
-    font-family: 'Roboto', serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 390px;
-}
+@media only screen and (max-width: 430px) {
+    .content {
+        font-family: 'Roboto', serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+    }
 
-
-    .formulario{
-        max-width: 350px;
+    .formulario {
+        max-width: 100%;
     }
 
     .campo {
-    width: 350px;
-}
+        width: 100%;
+    }
 
-.button {
-    width: 350px;
-}
+    .button {
+        width: 100%;
+    }
 
+    .right {
+        width: 100%;
+    }
 }
