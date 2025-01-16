@@ -149,6 +149,15 @@ label {
 }
 
 @media only screen and (max-width: 1130px) {
+    .content {
+        font-family: 'Roboto', serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 90%;
+    }
+
     .right img {
         max-width: 450px;
     }
@@ -161,7 +170,7 @@ label {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 90%;
+        max-width: 90%;
     }
 
     .formulario {
@@ -179,4 +188,19 @@ label {
         max-width: 347px;
         padding-bottom: 50px;
     }
+}
+
+@media only screen and (max-width: 390px) {
+    .formulario{
+        max-width: 350px;
+    }
+
+    .campo {
+    width: 350px;
+}
+
+.button {
+    width: 350px;
+}
+
 }
