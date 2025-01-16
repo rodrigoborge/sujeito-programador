@@ -191,6 +191,16 @@ label {
 }
 
 @media only screen and (max-width: 390px) {
+.content {
+    font-family: 'Roboto', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 390px;
+}
+
+
     .formulario{
         max-width: 350px;
     }
