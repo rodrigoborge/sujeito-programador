@@ -53,9 +53,12 @@ form {
     margin-bottom: 20px;
 }
 
-.campo::placeholder {
-    padding: 10px;
+input[type=text], input[type=e-mail], input[type=password]{
+    color: #0056fb;
+    padding-left: 10px;
+    font-size: 16px;
 }
+
 
 .check {
     margin-bottom: 20px;
