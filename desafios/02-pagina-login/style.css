@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     outline: 0;
-    /* border: 1px solid red; */
 }
 
 :root {
@@ -147,4 +146,36 @@ label {
     line-height: 27px;
     letter-spacing: 5.5%;
     max-width: 438px;
+}
+
+@media only screen and (max-width: 1130px) {
+    .right img {
+        max-width: 450px;
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+    .content {
+        font-family: 'Roboto', serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formulario {
+        padding-top: 200px;
+        padding-bottom: 140px;
+    }
+
+    .right {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        width: 100%;
+    }
+
+    .right img {
+        max-width: 347px;
+        padding-bottom: 50px;
+    }
 }
