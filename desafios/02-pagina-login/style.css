@@ -9,6 +9,7 @@
 
 :root {
     --blue: #0056fb;
+    --blue-hover: #327aff;
     --white: #ffffff;
     --black: #000000;
 }
@@ -93,6 +94,12 @@ label {
     line-height: 18.75px;
     letter-spacing: 5.5%;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: var(--blue-hover);
+    transition: 0.5s;
 }
 
 .conta {
@@ -164,12 +171,12 @@ label {
         max-width: 100%;
     }
 
-        .formulario {
+    .formulario {
         padding-top: 200px;
         padding-bottom: 140px;
     }
 
-        .right {
+    .right {
         width: 100%;
     }
 
