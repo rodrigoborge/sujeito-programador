@@ -46,5 +46,11 @@
 //     console.log(mensagem);
 // }
 
-
 // Loops
+// While - Enquanto
+
+var x = 0;
+while (x < 11) {
+    document.write('<br> O valor do X é: ' + x);
+    x++;
+}
