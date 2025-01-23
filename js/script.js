@@ -86,3 +86,21 @@
 //             break;
 //     }
 // }
+
+// var valor = 30;
+// if (valor < 23) {
+//     console.log('O numero é menor que 23');
+// }
+
+// var nome = 'Rodrigo';
+// var userOnline = false;
+
+// if (userOnline === false) {
+//     console.log('Usuário está OnLine!');
+// } else {
+//     console.log('Usuário está OffLine!');
+// }
+
+var numero = 10;
+
+numero === 10 ? console.log('Numero igual a 10') : console.log('Numero diferente de 10');
