@@ -49,8 +49,16 @@
 // Loops
 // While - Enquanto
 
-var x = 0;
-while (x < 11) {
-    document.write('<br> O valor do X é: ' + x);
-    x++;
+// var x = 0;
+// while (x < 11) {
+//     document.write('<br> O valor do X é: ' + x);
+//     x++;
+// }
+
+//FOR
+
+var valor = 30;
+
+for (a = 0; a <= valor; a++) {
+    document.write('Valor do a é: ' + a + '<br>');
 }
