@@ -57,8 +57,11 @@
 
 //FOR
 
-var valor = 30;
+// var valor = 30;
 
-for (a = 0; a <= valor; a++) {
-    document.write('Valor do a é: ' + a + '<br>');
-}
+// for (a = 0; a <= valor; a++) {
+//     document.write('Valor do a é: ' + a + '<br>');
+// }
+
+// SWITCH
+
