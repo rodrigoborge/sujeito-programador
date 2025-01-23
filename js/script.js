@@ -65,3 +65,24 @@
 
 // SWITCH
 
+function pedir() {
+    var valor = prompt('Digite o valor de 1 a 4');
+
+    switch (Number(valor)) {
+        case 1:
+            alert('Voce escolheu SUCO');
+            break;
+        case 2:
+            alert('Voce escolheu ÁGUA GElADA');
+            break;
+        case 3:
+            alert('Voce escolheru SORVETE');
+            break;
+        case 4:
+            alert('Voce chamou o GARÇOM');
+            break;
+        default:
+            alert('ERRO! Volte e escolha um numero de 1 a 4');
+            break;
+    }
+}
