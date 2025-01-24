@@ -23,4 +23,7 @@ function calcular(event) {
     } else if (imc > 30) {
         resultado.innerHTML = '<br/> Seu resultado foi: ' + imc.toFixed(2) + '<br/> Cuidado com a sua obesidade!';
     }
+
+    document.getElementById('peso').value = '';
+    document.getElementById('altura').value = '';
 }
