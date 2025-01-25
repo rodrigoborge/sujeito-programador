@@ -150,3 +150,5 @@
 //     { nome: 'Maria', cargo: 'Programadora', status: 'Ativo' },
 //     { nome: 'Jose', cargo: 'CEO', status: 'Ativo:' },
 // ];
+
+//TEMPLATE STRINGS
