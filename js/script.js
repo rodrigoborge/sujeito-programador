@@ -101,6 +101,8 @@
 //     console.log('Usuário está OffLine!');
 // }
 
-var numero = 10;
+// var numero = 10;
 
-numero === 10 ? console.log('Numero igual a 10') : console.log('Numero diferente de 10');
+// numero === 10 ? console.log('Numero igual a 10') : console.log('Numero diferente de 10');
+
+//TEMPORIZADORES
