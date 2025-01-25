@@ -148,7 +148,15 @@
 // let usuarios = [
 //     { nome: 'Rodrigo', cargo: 'Programador', status: 'Ativo,' },
 //     { nome: 'Maria', cargo: 'Programadora', status: 'Ativo' },
-//     { nome: 'Jose', cargo: 'CEO', status: 'Ativo:' },
+//     { nome: 'Jose', cargo: 'RH', status: 'Ativo:' },
 // ];
 
 //TEMPLATE STRINGS
+
+let nome = 'Rodrigo';
+let sobrenome = 'Borge';
+let idade = 35;
+
+let mensagem = `Meu nome é ${nome} ${sobrenome} e eu tenho ${idade} anos de idade`;
+
+console.log(mensagem);
