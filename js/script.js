@@ -119,3 +119,10 @@
 // setTimeout(() => {
 //     console.log('Executou o Timeout!');
 // }, 3000);
+
+
+//________________________________
+// DIFERENÇAS ENTRE VAR LET E CONST
+
+// Var - Consegue acessar dentro do código todo
+// Let - Consegue acessar apenas dentro do escopo de criação
