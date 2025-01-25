@@ -128,4 +128,25 @@
 // Const - Funciona semelhante ao let, apenas onde é criado, porém o valor é imutavel, não é possivel alterar o valor após criado,
 //         além disso o valor precisa ser definido na criação.
 
+//OBJETOS
 
+// let pessoa = {
+//     nome: 'Rodrigo',
+//     idade: '35',
+//     altura: 1.83,
+//     cargo: 'Programador',
+// };
+
+// console.log(pessoa);
+
+// let carro = {
+//     nome: 'Golf 1.6',
+//     cor: 'Branco',
+//     potencia: '140cv',
+// }
+
+// let usuarios = [
+//     { nome: 'Rodrigo', cargo: 'Programador', status: 'Ativo,' },
+//     { nome: 'Maria', cargo: 'Programadora', status: 'Ativo' },
+//     { nome: 'Jose', cargo: 'CEO', status: 'Ativo:' },
+// ];
