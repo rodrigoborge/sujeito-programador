@@ -106,3 +106,7 @@
 // numero === 10 ? console.log('Numero igual a 10') : console.log('Numero diferente de 10');
 
 //TEMPORIZADORES
+// SET INVERVAL
+
+
+//SET TIMEOUT
