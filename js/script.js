@@ -120,10 +120,12 @@
 //     console.log('Executou o Timeout!');
 // }, 3000);
 
-
 //________________________________
 // DIFERENÇAS ENTRE VAR LET E CONST
 
 // Var - Consegue acessar dentro do código todo
 // Let - Consegue acessar apenas dentro do escopo de criação (Apenas dentro das {})
-// Const - Funciona semelhante ao let, apenas onde é criado, porém o valor é imutavel, não é possivel alterar o valor após criado
+// Const - Funciona semelhante ao let, apenas onde é criado, porém o valor é imutavel, não é possivel alterar o valor após criado,
+//         além disso o valor precisa ser definido na criação.
+
+
