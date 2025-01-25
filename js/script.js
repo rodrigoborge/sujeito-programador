@@ -107,15 +107,15 @@
 
 //TEMPORIZADORES
 // SET INVERVAL
-function acao() {
-    document.write('Executando... <br/>');
-}
-
-// var timer = setInterval(() => {
+// function acao() {
 //     document.write('Executando... <br/>');
-// }, 1000);
+// }
 
-//SET TIMEOUT
-setTimeout(() => {
-    console.log('Executou o Timeout!');
-}, 3000);
+// // var timer = setInterval(() => {
+// //     document.write('Executando... <br/>');
+// // }, 1000);
+
+// //SET TIMEOUT
+// setTimeout(() => {
+//     console.log('Executou o Timeout!');
+// }, 3000);
