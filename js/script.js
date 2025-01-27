@@ -153,10 +153,11 @@
 
 //TEMPLATE STRINGS
 
-let nome = 'Rodrigo';
-let sobrenome = 'Borge';
-let idade = 35;
+// let nome = 'Rodrigo';
+// let sobrenome = 'Borge';
+// let idade = 35;
 
-let mensagem = `Meu nome é ${nome} ${sobrenome} e eu tenho ${idade} anos de idade`;
+// let mensagem = `Meu nome é ${nome} ${sobrenome} e eu tenho ${idade} anos de idade`;
 
-console.log(mensagem);
+// console.log(mensagem);
+
