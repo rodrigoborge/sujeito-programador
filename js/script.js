@@ -161,3 +161,35 @@
 
 // console.log(mensagem);
 
+//OBJETOS
+
+let pessoa = {
+    nome: 'Rodrigo',
+    sobrenome: 'Borge',
+    empresa: 'BNRY',
+    cargo: 'Founder',
+};
+
+// let nome = 'Teste';
+
+// // console.log(pessoa.nome);
+// // console.log(pessoa.cargo);
+
+// const { nome: nomePessoa, cargo, empresa, sobrenome } = pessoa;
+
+// console.log(nome);
+// console.log(nomePessoa);
+// console.log(sobrenome);
+// console.log(empresa);
+// console.log(cargo);
+
+// DESCONSTRUIR UM ARRAY
+
+let nomes = ['Rodrigo', 'Lucas', 'Henrique'];
+// let { 0: rodrigo, 2: henrique } = nomes;
+
+// console.log(rodrigo);
+// console.log(henrique);
+
+let [primeiroNome, segundoNome, terceiroNome] = nomes;
+console.log(primeiroNome);
