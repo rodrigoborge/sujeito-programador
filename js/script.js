@@ -230,9 +230,18 @@
 
 // REST OPERATOR
 
-function convidados(...nomes) {
-    console.log('SEJAM BEM-VINDOS!!');
-    console.log(nomes);
+// function convidados(...nomes) {
+//     console.log('SEJAM BEM-VINDOS!!');
+//     console.log(nomes);
+// }
+
+// convidados('Rodrigo', 'Flavia', 'Maria', 'Ana');
+
+function sorteador(...numeros) {
+    console.log(numeros);
+
+    const numeroGerado = Math.floor(Math.random() * numeros.length);
+    console.log('O numero gerado foi: ' + numeros[numeroGerado]);
 }
 
-convidados('Rodrigo', 'Flavia', 'Maria');
+sorteador(1, 4, 2, 6, 78, 09, 34, 56, 23, 676, 56, 45, 23, 12, 79, 4, 7);
