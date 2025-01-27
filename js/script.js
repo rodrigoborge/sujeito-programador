@@ -185,11 +185,13 @@ let pessoa = {
 
 // DESCONSTRUIR UM ARRAY
 
-let nomes = ['Rodrigo', 'Lucas', 'Henrique'];
-// let { 0: rodrigo, 2: henrique } = nomes;
+// let nomes = ['Rodrigo', 'Lucas', 'Henrique'];
+// // let { 0: rodrigo, 2: henrique } = nomes;
 
-// console.log(rodrigo);
-// console.log(henrique);
+// // console.log(rodrigo);
+// // console.log(henrique);
 
-let [primeiroNome, segundoNome, terceiroNome] = nomes;
-console.log(primeiroNome);
+// let [primeiroNome, segundoNome, terceiroNome] = nomes;
+// console.log(primeiroNome);
+
+// 
