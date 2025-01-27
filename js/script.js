@@ -216,14 +216,14 @@
 
 // console.log(novaPessoa);
 
-function novoUsuario(info) {
-    let data = {
-        ...info,
-        status: 'Ativo',
-        inicio: '23/02/2024',
-        codigo: '123123',
-    };
-    console.log(data);
-}
+// function novoUsuario(info) {
+//     let data = {
+//         ...info,
+//         status: 'Ativo',
+//         inicio: '23/02/2024',
+//         codigo: '123123',
+//     };
+//     console.log(data);
+// }
 
-novoUsuario({ nome: 'Jose', sobrenome: 'Silva', cargo: 'DEV' });
+// novoUsuario({ nome: 'Jose', sobrenome: 'Silva', cargo: 'DEV' });
