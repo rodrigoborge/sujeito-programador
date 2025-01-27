@@ -163,12 +163,12 @@
 
 //OBJETOS
 
-let pessoa = {
-    nome: 'Rodrigo',
-    sobrenome: 'Borge',
-    empresa: 'BNRY',
-    cargo: 'Founder',
-};
+// let pessoa = {
+//     nome: 'Rodrigo',
+//     sobrenome: 'Borge',
+//     empresa: 'BNRY',
+//     cargo: 'Founder',
+// };
 
 // let nome = 'Teste';
 
@@ -194,4 +194,36 @@ let pessoa = {
 // let [primeiroNome, segundoNome, terceiroNome] = nomes;
 // console.log(primeiroNome);
 
-// 
+// SPREAD OPERATOR
+
+// let primeiros = [1, 2, 3];
+// let numeros = [...primeiros, 4, 5, 10];
+// console.log(numeros);
+
+// let pessoa = {
+//     nome: 'Rodrigo',
+//     idade: 45,
+//     cargo: 'RH',
+//     empresa: 'BNRY',
+// };
+
+// let novaPessoa = {
+//     ...pessoa,
+//     status: 'Ativo',
+//     cidade: 'Curitiba - pr',
+//     telefone: '(41) 99747-5898',
+// };
+
+// console.log(novaPessoa);
+
+function novoUsuario(info) {
+    let data = {
+        ...info,
+        status: 'Ativo',
+        inicio: '23/02/2024',
+        codigo: '123123',
+    };
+    console.log(data);
+}
+
+novoUsuario({ nome: 'Jose', sobrenome: 'Silva', cargo: 'DEV' });
