@@ -227,3 +227,12 @@
 // }
 
 // novoUsuario({ nome: 'Jose', sobrenome: 'Silva', cargo: 'DEV' });
+
+// REST OPERATOR
+
+function convidados(...nomes) {
+    console.log('SEJAM BEM-VINDOS!!');
+    console.log(nomes);
+}
+
+convidados('Rodrigo', 'Flavia', 'Maria');
