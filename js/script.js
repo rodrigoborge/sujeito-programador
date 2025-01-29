@@ -277,3 +277,10 @@
 //         console.log(`Item encontrado com sucesso`);
 //     }
 // });
+
+let palavras = ['Matheus', 'Ana', 'Jose', 'Rodrigo', 'Maria'];
+
+let resultado = palavras.filter((item) => {
+    return item.length <= 4;
+});
+console.log(resultado);
