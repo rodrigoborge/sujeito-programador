@@ -245,3 +245,14 @@
 // }
 
 // sorteador(1, 4, 2, 6, 78, 09, 34, 56, 23, 676, 56, 45, 23, 12, 79, 4, 7);
+
+// MAP - Percorrer um array
+
+// let lista = ['Rodrigo', 'Jose', 'Maria'];
+
+// lista.map((item, index) => {
+//     console.log(`Passando na Posição ${index} o nome desse Item é: ${item}`);
+// });
+
+// REDUCE - Busca reduzir um array
+
