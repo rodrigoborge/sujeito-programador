@@ -55,7 +55,7 @@
 //     x++;
 // }
 
-//FOR
+// FOR
 
 // var valor = 30;
 
@@ -105,7 +105,7 @@
 
 // numero === 10 ? console.log('Numero igual a 10') : console.log('Numero diferente de 10');
 
-//TEMPORIZADORES
+// TEMPORIZADORES
 // SET INVERVAL
 // function acao() {
 //     document.write('Executando... <br/>');
@@ -120,15 +120,15 @@
 //     console.log('Executou o Timeout!');
 // }, 3000);
 
-//________________________________
-// DIFERENÇAS ENTRE VAR LET E CONST
+// // ________________________________
+// // DIFERENÇAS ENTRE VAR LET E CONST
 
-// Var - Consegue acessar dentro do código todo
-// Let - Consegue acessar apenas dentro do escopo de criação (Apenas dentro das {})
-// Const - Funciona semelhante ao let, apenas onde é criado, porém o valor é imutavel, não é possivel alterar o valor após criado,
-//         além disso o valor precisa ser definido na criação.
+// // Var - Consegue acessar dentro do código todo
+// // Let - Consegue acessar apenas dentro do escopo de criação (Apenas dentro das {})
+// // Const - Funciona semelhante ao let, apenas onde é criado, porém o valor é imutavel, não é possivel alterar o valor após criado,
+// //         além disso o valor precisa ser definido na criação.
 
-//OBJETOS
+// // OBJETOS
 
 // let pessoa = {
 //     nome: 'Rodrigo',
@@ -151,7 +151,7 @@
 //     { nome: 'Jose', cargo: 'RH', status: 'Ativo:' },
 // ];
 
-//TEMPLATE STRINGS
+// TEMPLATE STRINGS
 
 // let nome = 'Rodrigo';
 // let sobrenome = 'Borge';
@@ -161,7 +161,7 @@
 
 // console.log(mensagem);
 
-//OBJETOS
+// OBJETOS
 
 // let pessoa = {
 //     nome: 'Rodrigo',
@@ -269,7 +269,7 @@
 
 // console.log(`Total do reduce ${total}`);
 
-//FIND - Buscar alguma coisa
+// FIND - Buscar alguma coisa
 
 // let listagem = [5, 3, 'Jose', 2, 'Rodrigo'];
 // let busca = listagem.find((item) => {
@@ -278,9 +278,9 @@
 //     }
 // });
 
-let palavras = ['Matheus', 'Ana', 'Jose', 'Rodrigo', 'Maria'];
+// let palavras = ['Matheus', 'Ana', 'Jose', 'Rodrigo', 'Maria'];
 
-let resultado = palavras.filter((item) => {
-    return item.length <= 4;
-});
-console.log(resultado);
+// let resultado = palavras.filter((item) => {
+//     return item.length <= 4;
+// });
+// console.log(resultado);
