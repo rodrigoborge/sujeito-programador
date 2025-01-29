@@ -268,3 +268,12 @@
 // });
 
 // console.log(`Total do reduce ${total}`);
+
+//FIND - Buscar alguma coisa
+
+// let listagem = [5, 3, 'Jose', 2, 'Rodrigo'];
+// let busca = listagem.find((item) => {
+//     if (item === 'Jose') {
+//         console.log(`Item encontrado com sucesso`);
+//     }
+// });
