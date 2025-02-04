@@ -294,9 +294,16 @@
     3 - As chaves - O bloco de codigo que representa o corpo da funçao
 */
 
-function somar(a, b) {
-    let total = a + b;
-    return console.log(total);
-}
+// function somar(a, b) {
+//     let total = a + b;
+//     return console.log(total);
+// }
 
-somar(120, 40);
+// somar(120, 40);
+
+let subtrair = (valor1, valor2) => {
+    let total = valor1 - valor2;
+    console.log(total);
+};
+
+subtrair(60, 30);
