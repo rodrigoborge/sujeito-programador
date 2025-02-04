@@ -48,3 +48,4 @@ console.log(maiorMenorNumero(arrayNumeros));
 console.log(maiorMenorNumero(arrayNumeros2));
 
 
+//Função que retorna um array ordenado de forma crescente
