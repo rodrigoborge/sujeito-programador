@@ -16,3 +16,10 @@ console.log(soma2(10, 20));
 //Early Return
 const soma3 = (num5, num6) => num5 + num6;
 console.log(soma3(40, 60));
+
+// Funçao que retorna o maior e o menor numero de um array
+const array = [10, 78, 3, 12, 1];
+
+function maiorMenorNumero (){
+    
+}
