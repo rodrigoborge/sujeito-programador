@@ -318,3 +318,4 @@
 
 let nomes = ['Rodrigo', 'Lucas', 'Jose'];
 console.log(nomes.includes('Lucas'));
+//Includes - Devolve sempre um booleano
