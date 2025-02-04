@@ -285,5 +285,18 @@
 // });
 // console.log(resultado);
 
+//Arrow Function - FUNCOES ANONIMAS
 
-//FUNCOES ANONIMAS
+/*
+        () => {}
+    1 - Os parenteses, é por onde a funçao recebe os argumentos 
+    2 - A seta - responsavel pela 'arrow'
+    3 - As chaves - O bloco de codigo que representa o corpo da funçao
+*/
+
+function somar(a, b) {
+    let total = a + b;
+    return console.log(total);
+}
+
+somar(120, 40);
