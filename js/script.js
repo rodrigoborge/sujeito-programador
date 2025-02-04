@@ -301,15 +301,15 @@
 
 // somar(120, 40);
 
-let subtrair = (valor1, valor2) => {
-    let total = valor1 - valor2;
-    console.log(total);
-};
+// let subtrair = (valor1, valor2) => {
+//     let total = valor1 - valor2;
+//     console.log(total);
+// };
 
-subtrair(60, 30);
+// subtrair(60, 30);
 
-let numeros = [1, 3, 5, 10];
-numeros.map((item) => {
-    // AQUI VAI A LOGICA DO MAP
-    console.log(item);
-});
+// let numeros = [1, 3, 5, 10];
+// numeros.map((item) => {
+//     // AQUI VAI A LOGICA DO MAP
+//     console.log(item);
+// });
