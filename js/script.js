@@ -316,6 +316,16 @@
 
 //INCLUDES - STARTSWITH - ENDSWITH
 
-let nomes = ['Rodrigo', 'Lucas', 'Jose'];
-console.log(nomes.includes('Lucas'));
-//Includes - Devolve sempre um booleano
+// let nomes = ['Rodrigo', 'Lucas', 'Jose'];
+// console.log(nomes.includes('Maria'));
+// //Includes - Devolve sempre um booleano
+
+// if (nomes.includes('Rodrigo')) {
+//     console.log('O nome está na lista');
+// } else {
+//     console.log('O nome não está na lista');
+// }
+
+// STARTSWITCH - Verifica se a variável começa com os caracteres informados
+let nome = 'Rodrigo';
+console.log(nome.startsWith('Rod'));
