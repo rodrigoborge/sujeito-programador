@@ -326,6 +326,10 @@
 //     console.log('O nome não está na lista');
 // }
 
-// STARTSWITCH - Verifica se a variável começa com os caracteres informados
+// STARTSWITH - Verifica se a variável começa com os caracteres informados
 let nome = 'Rodrigo';
 console.log(nome.startsWith('Rod'));
+
+//ENDSWITH - Verifica se a variável termina com os caracteres informados
+console.log(nome.endsWith('s'));
+
