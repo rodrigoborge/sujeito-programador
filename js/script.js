@@ -314,4 +314,7 @@
 //     console.log(item);
 // });
 
+//INCLUDES - STARTSWITH - ENDSWITH
 
+let nomes = ['Rodrigo', 'Lucas', 'Jose'];
+console.log(nomes.includes('Lucas'));
