@@ -33,7 +33,8 @@ function maiorMenorNumero(array) {
         }
     }
 
-    return [maior, menor];
+    //return [maior, menor];
+    return `O maior numero é o ${maior} e o menor é o ${menor}`;
 }
 //A resposta precisa ser: 78,1
 
