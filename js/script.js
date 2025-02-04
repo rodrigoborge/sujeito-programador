@@ -284,3 +284,6 @@
 //     return item.length <= 4;
 // });
 // console.log(resultado);
+
+
+//FUNCOES ANONIMAS

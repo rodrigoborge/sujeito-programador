@@ -18,3 +18,4 @@
 
 let produtos = ['Computador', 'Telefone', 'Mouse', 'Teclado'];
 console.log(produtos.length);
+
