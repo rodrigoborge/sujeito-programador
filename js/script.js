@@ -307,3 +307,9 @@ let subtrair = (valor1, valor2) => {
 };
 
 subtrair(60, 30);
+
+let numeros = [1, 3, 5, 10];
+numeros.map((item) => {
+    // AQUI VAI A LOGICA DO MAP
+    console.log(item);
+});
