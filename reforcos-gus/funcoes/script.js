@@ -4,6 +4,4 @@ function soma(num1, num2) {
     return num1 + num2;
 }
 
-const resultado = soma(10, 20);
-
 console.log(soma(5,2));
