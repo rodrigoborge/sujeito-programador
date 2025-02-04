@@ -20,6 +20,11 @@ console.log(soma3(40, 60));
 // Funçao que retorna o maior e o menor numero de um array
 const array = [10, 78, 3, 12, 1];
 
-function maiorMenorNumero (){
-    
+function maiorMenorNumero(array) {
+    let maior = array[0];
+    let menor = array[0];
+
+    for (let index = 1; index < array.length; index += 1) {
+        
+    }
 }
