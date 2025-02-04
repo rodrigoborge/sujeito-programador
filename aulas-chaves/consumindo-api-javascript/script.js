@@ -11,7 +11,23 @@ function nutriApp() {
             posts = json;
 
             posts.map((item) => {
-                console.log(item.titulo);
+                let liElement = document.createElement('li');
+                let titleElement = document.createElement('strong');
+                let imgElement = document.createElement('img');
+                let descriptionElement = document.createElement('a');
+
+                let titleText = document.createTextNode(item.titulo);
+                titleElement.appendChild(titleText);
+                liElement.append(titleElement);
+
+                imgElement.src = item.capa;
+                liElement.appendChild(imgElement);
+
+                let descriptionText = document.createTextNode(item.subtitulo);
+                descriptionElement.appendChild(descriptionText);
+                liElement.appendChild(descriptionElement);
+
+                listElement.appendChild(liElement);
             });
         })
         .catch(() => {
