@@ -78,4 +78,4 @@ console.log(ordenacaoDecrescente(arrayNumeros));
 
 //Ordenaçao com .sort
 const ordenacaoComSort = (array) => array.sort((a, b) => a - b);
-console.log(ordenacaoComSort(arrayNumeros))
+console.log(ordenacaoComSort(arrayNumeros));
