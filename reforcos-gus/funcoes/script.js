@@ -54,8 +54,24 @@ function ordenacao(array) {
             }
         }
     }
-    return `A ordenação é ${array}`;
+    return `A ordenação crescente é ${array}`;
+}
+
+//Função que retorna um array ordenado de forma crescente
+function ordenacaoDecrescente(array) {
+    let temp;
+
+    for (let index = 0; index < array.length; index += 1) {
+        for (let compare = index + 1; compare < array.length; compare += 1) {
+            if (array[index] < array[compare]) {
+                temp = array[index];
+                array[index] = array[compare];
+                array[compare] = temp;
+            }
+        }
+    }
+    return `A ordenação decrescente é ${array}`;
 }
 
 console.log(ordenacao(arrayNumeros));
-console.log(ordenacao(arrayNumeros2));
+console.log(ordenacaoDecrescente(arrayNumeros));
