@@ -11,7 +11,7 @@ function gerarNumeroMega(qtdNumeros) {
         numeros.push(numeroAleatorio);
     }
 
-    return numeroAleatorio;
+    return numeros;
 }
 
 const numeroSorteado = gerarNumeroMega(6);
