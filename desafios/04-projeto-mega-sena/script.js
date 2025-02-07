@@ -8,7 +8,10 @@ function gerarNumeroMega(qtdNumeros) {
 
     while (numeros.length < qtdNumeros) {
         const numeroAleatorio = Math.floor(Math.random() * 60) + 1;
-        numeros.push(numeroAleatorio);
+
+        if (!numeros.includes(numeroAleatorio)) {
+            numeros.push(numeroAleatorio);
+        }
     }
 
     return numeros;
